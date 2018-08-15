@@ -5,3 +5,11 @@ This repo is for generating Java class from `.proto` message. It supports `proto
 ### Command:
 
 `mvn clean install`
+
+Please note the directory structure:
+
+<pre>
+src
+ |---- main
+        |----- proto
+   </pre>
