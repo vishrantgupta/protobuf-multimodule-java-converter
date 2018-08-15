@@ -1,7 +1,7 @@
-# Protostuff multi-module project code generation example
+## Protobuf multi-module project code generation example
 
-This example shows how to import message declarations from `proto` file that is in another module. 
+This repo is for generating Java class from `.proto` message. It supports `proto2` and `proto3`.
 
-1. Module `common` contains declaration of `KeyValue` message in the [common.proto](common/src/main/resources/common.proto).
-2. Module `foo` uses `KeyValue` from [common.proto](common/src/main/resources/common.proto), see [foo.proto](foo/src/main/resources/foo.proto).
-"# protobuf-multimodule-java-converter" 
+### Command:
+
+`mvn clean install`
