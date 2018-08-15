@@ -17,3 +17,5 @@ src
 Change following statement in `pom.xml`
 
 `<protocExecutable>path_of_protoc.exe</protocExecutable>`
+
+**Known:** improvement can be done for dependency management
