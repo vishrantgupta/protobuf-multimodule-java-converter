@@ -13,3 +13,7 @@ src
  |---- main
         |----- proto
    </pre>
+
+Change following statement in `pom.xml`
+
+`<protocExecutable>path_of_protoc.exe</protocExecutable>`
